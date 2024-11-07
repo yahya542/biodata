@@ -1,0 +1,102 @@
+/* ee4dd2 = orange*/
+* {
+
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: sans-serif;
+}
+#l_toko{
+    height: 50px; 
+    border-radius: 50px ;
+
+}
+.atas{
+   width: auto;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #12372a ; 
+    text-align: center;
+    border-radius: 15px;
+}
+.search-form {
+    margin: 10px, 30px, 30px, 100000px ; 
+    max-width: 400px;
+    text-align: center;
+
+}
+    
+.search-input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.search-button {
+    padding: 10px 20px;
+    background-color:#436850 ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.search-button:hover {
+    background-color: #adbc9f;
+}
+/* tengah */
+.tengah {
+    background-color: #436850;
+    height: 1000px;
+    border-radius: 15px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: -11px;
+
+}
+#k1 {
+    height: 250px;
+    width: 200px;
+    background-color: rgb(115, 255, 0);
+    margin-top: 50px ; 
+    margin-left: 50px;
+    margin-right: -50px;
+}
+#k2 {
+    height: 250px;
+    width: 200px;
+    background-color: rgb(0, 38, 255);
+    margin-top: 50px ; 
+    margin-left: -100px;
+}
+#k3{
+    height: 250px;
+    width: 200px;
+    background-color: rgb(0, 38, 255);
+    margin-top: 50px ; 
+    margin-left: -100px;
+}
+#k4{
+    height: 250px;
+    width: 200px;
+    background-color: rgb(0, 38, 255);
+    margin-top: 50px ; 
+    margin-left: -100px;
+
+}
+#k5{
+    height: 250px;
+    width: 200px;
+    background-color: rgb(0, 38, 255);
+    margin-top: 50px ; 
+    margin-left: -300px;
+}
+/* bawah */
+.bawah{
+    background-color: #adbc9f;
+}

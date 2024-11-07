@@ -1,0 +1,133 @@
+/* referensi warna: 436850, adbc9f, 12372a, #fbfada  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #12372a ;
+    font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6, strong,p {
+    color:#fbfada ;
+}
+p {
+    font-size: 1rem ; /* 1 rem adalah 16px */ 
+    line-height: 1.9rem ;
+}
+
+span, label, textarea, li {
+    color:rgb(232, 135, 16)
+}
+
+a {
+    text-decoration: none;
+}
+.luar {
+width: 1200px;
+margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+ .luar {
+    width: 90%;
+ }
+    
+}
+
+/* logo dan nav */
+.navigasi {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.navigasi ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 40px;
+    margin-left: 2rem;
+}
+.navigasi ul li {
+    display: flex;
+    align-items: center;
+    margin-right:30px ;
+}
+.navigasi ul li a { 
+    color:#fbfada
+}
+#rsp div { 
+ width: 25px;
+ height: 2px;
+ background-color:#fbfada;
+ margin: 5px;
+ transition: all 0.3s;
+ z-index: 99;
+}
+
+#rsp {
+    z-index: 99;
+    position: fixed;
+    top: 30px;
+    right: 35px ;
+
+      
+}
+
+
+/* isi */ 
+.judul {
+    text-transform:uppercase ;
+    letter-spacing: .5rem ;
+    position: relative;
+    padding-left: 40px;
+    width: fit-content;
+    font-weight: 400;
+    font-size: .9rem ;
+    
+    
+}
+
+.isi{
+height: 720px;
+display: grid;
+grid-template-columns: 1fr 1fr  ;
+align-items: center;
+margin-top: -50px ;
+
+}
+
+.nama {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin:0.5rem 0 1rem ;
+}
+.isi-kiri{
+    margin-left: 90px;
+    
+    width: 600px;
+}
+.isi-kanan{
+    margin-left: 50px;
+
+      display: flex;
+      justify-content: center;
+}
+
+#g {
+    height: 320px;
+    width: 50%;
+}
+
+
+
