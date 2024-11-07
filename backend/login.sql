@@ -8,4 +8,4 @@ CREATE TABLE masuk (
     password VARCHAR(15), NOT NULL
 ); 
 
-INSERT INTO users (username, npm, password) VALUE("yahya", "25", "$2b$12$2501Hash" )
+INSERT INTO users (username, npm, password) VALUE("yahya", "25", "$2b$12$deya2501Hash" )
