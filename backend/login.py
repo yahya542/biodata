@@ -29,7 +29,7 @@ def login():
         cursor.close()
         conn.close()
         if user and bcrypt.checkpw(password.encode('utf-8'), user[0].encode('utf-8')):
-            return redirect('/dashboard')  # Arahkan ke dashboard
+            return redirect('/dashboard')  
         else:
             flash('Username, NPM, atau password salah.')
             return redirect('/')  # Kembali ke halaman login
