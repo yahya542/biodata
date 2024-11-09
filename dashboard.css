@@ -7,10 +7,17 @@
 
 }
 
+
 body {
     
     font-family: sans-serif;
     background-color: black;
+}
+
+.kosong{
+    background-color: black;
+    height: 30px;
+
 }
 
 h1,h2,h3,h4,h5,h6, strong,p {
@@ -51,6 +58,7 @@ margin: 0 auto;
     list-style: none;
     display: flex;
     gap: 3rem;
+    
 }
 .logo {
     display: flex;
@@ -91,7 +99,7 @@ grid-template-columns: 1fr 1fr  ;
 align-items: center;
 margin-top: -50px ;
 background-color: black;
-box-shadow: 0 0 10px 1px #09f1fd ;
+
 
 
 }
@@ -111,6 +119,7 @@ box-shadow: 0 0 10px 1px #09f1fd ;
 
       display: flex;
       justify-content: center;
+      margin-top: -50px;
      
 }
 
@@ -120,6 +129,7 @@ box-shadow: 0 0 10px 1px #09f1fd ;
     width: 50%;
     border-radius: 50px;
     box-shadow: 0 0 30px 5px #09f1fd ;
+  
     
 }
 
