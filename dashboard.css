@@ -68,24 +68,6 @@ margin: 0 auto;
 .navigasi ul li a { 
     color:#fbfada
 }
-#rsp div { 
- width: 25px;
- height: 2px;
- background-color:#fbfada;
- margin: 5px;
- transition: all 0.3s;
- z-index: 99;
-}
-
-#rsp {
-    z-index: 99;
-    position: fixed;
-    top: 30px;
-    right: 35px ;
-
-
-      
-}
 
 
 /* isi */ 
