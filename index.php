@@ -10,7 +10,7 @@
 
 <h2>Login</h2>
 
-<form id="loginForm" action="/" method="POST">
+<form id="loginForm" action="/login" method="POST">
     <label for="username">Username:</label><br>
     <input type="text" id="username" name="username" required><br><br>
     
