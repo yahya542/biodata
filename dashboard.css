@@ -3,13 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 
 }
 
 body {
     
     font-family: sans-serif;
-    background-color: #1f242d;
+    background-color: black;
 }
 
 h1,h2,h3,h4,h5,h6, strong,p {
@@ -21,7 +22,7 @@ p {
 }
 
 span, label, textarea, li {
-    color:rgb(232, 135, 16)
+    color:#09f1fd
 }
 
 a {
@@ -107,7 +108,9 @@ display: grid;
 grid-template-columns: 1fr 1fr  ;
 align-items: center;
 margin-top: -50px ;
-background-color: #1f242d;
+background-color: black;
+box-shadow: 0 0 10px 1px #09f1fd ;
+
 
 }
 
@@ -126,11 +129,16 @@ background-color: #1f242d;
 
       display: flex;
       justify-content: center;
+     
 }
+
 
 #g {
     height: 320px;
     width: 50%;
+    border-radius: 50px;
+    box-shadow: 0 0 30px 5px #09f1fd ;
+    
 }
 
 
@@ -142,7 +150,7 @@ background-color: #1f242d;
 /* shop*/
 
 .shop{
-    background-color: #1f242d;;
+    background-color: black;
 }
 #l_toko{
     height: 50px; 
