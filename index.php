@@ -11,6 +11,7 @@
 <h2>Login</h2>
 
 <form id="loginForm" action="/login" method="POST">
+    <div class="bungkus">
     <label for="username">Username:</label><br>
     <input type="text" id="username" name="username" required><br><br>
     
@@ -18,6 +19,7 @@
     <input type="password" id="password" name="password" required><br><br>
     
     <button type="submit">Login</button>
+    </div>
 </form>
 <script src="login.js"></script>
 </body>
