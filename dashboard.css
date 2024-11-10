@@ -182,15 +182,15 @@ background-color: black;
 }
 .search-button {
     padding: 10px 20px;
-    background-color:#436850 ;
-    color: #fff;
+    background-color: #fff ;
+    color: black ;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
 }
 .search-button:hover {
-    background-color: #adbc9f;
+    background-color: #09f1fd;
 }
 /* tengah */
 .tengah {
@@ -210,7 +210,7 @@ background-color: black;
     padding-top: 50px;
     border-radius: 8px;
     margin-left: 30px ; 
-    border: 1px solid rgb(247, 239, 239);
+    border: 3px solid rgb(247, 83, 32);
     
 }
 
