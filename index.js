@@ -10,6 +10,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         window.location.href = 'dashboard.html'; // Redirect ke halaman dashboard
     } else {
         // Login gagal
-        document.getElementById('error-message').style.display = 'block';
+        alert("maaf username dan password yang anda masukkan salah! 🙏")
     }
 });
