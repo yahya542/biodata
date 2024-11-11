@@ -14,6 +14,13 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         alert("maaf username dan password yang anda masukkan salah! 🙏")
     }
 
-    
+
   
+});
+
+document.getElementById("logout").addEventListener("click", function(event) {
+    event.preventDefault();
+
+    window.location.href="index.php";
+
 });

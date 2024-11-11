@@ -60,6 +60,9 @@ margin: 0 auto;
     gap: 3rem;
     
 }
+#logout{
+
+}
 
 .logo {
     display: flex;
@@ -133,14 +136,14 @@ background-color: black;
     margin-top: -50px;
     border-radius: 50px;
     box-shadow: 0 0 1px 3px #09f1fd ;
-    animation: animasiGambar 5s infinite alternate;
+    animation: animasiGambar 7s infinite alternate;
 }
 @keyframes animasiGambar{
     0% {
-        transform: translateY(0); /* Posisi awal */
+        transform: translateY(0);
       }
       30% {
-        transform: translateY(20px); /* Bergerak turun 100px */
+        transform: translateY(10px); 
       }
 }
 
