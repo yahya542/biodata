@@ -129,10 +129,18 @@ background-color: black;
 #g {
     height: 320px;
     width: 50%;
+    margin-top: -50px;
     border-radius: 50px;
-    box-shadow: 0 0 30px 5px #09f1fd ;
-  
-    
+    box-shadow: 0 0 1px 3px #09f1fd ;
+    animation: animasiGambar 5s infinite alternate;
+}
+@keyframes animasiGambar{
+    0% {
+        transform: translateY(0); /* Posisi awal */
+      }
+      30% {
+        transform: translateY(20px); /* Bergerak turun 100px */
+      }
 }
 
 
