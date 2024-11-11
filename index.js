@@ -3,7 +3,8 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
-
+  //mencari 
+ 
     // Verifikasi login (misalnya menggunakan data sederhana)
     if (username === 'yahya' && password === 'deya2501') {
         // Login berhasil, arahkan ke dashboard.html
@@ -12,4 +13,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         // Login gagal
         alert("maaf username dan password yang anda masukkan salah! 🙏")
     }
+
+    
+  
 });
