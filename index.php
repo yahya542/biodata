@@ -7,20 +7,23 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm" action="/login" method="POST">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
 
-<h2>Login</h2>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
 
-<form id="loginForm" action="/login" method="POST">
-    <div class="bungkus">
-    <label for="username">Username:</label><br>
-    <input type="text" id="username" name="username" required><br><br>
-    
-    <label for="password">Password:</label><br>
-    <input type="password" id="password" name="password" required><br><br>
-    
-    <button type="submit">Login</button>
+            <button type="submit">Login</button>
+        </form>
     </div>
-</form>
-<script src="index.js"></script>
+
+    <script src="index.js"></script>
 </body>
 </html>
