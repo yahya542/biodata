@@ -60,6 +60,7 @@ margin: 0 auto;
     gap: 3rem;
     
 }
+
 .logo {
     display: flex;
     align-items: center;
@@ -75,6 +76,10 @@ margin: 0 auto;
 }
 .navigasi ul li a { 
     color:#fbfada
+}
+.navigasi ul li a:hover { 
+    color:#09f1fd;
+    transition: all 0.8s ease;
 }
 
 
