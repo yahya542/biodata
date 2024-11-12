@@ -168,6 +168,7 @@ background-color: black;
     width: auto; 
     height: 50px;
     border-radius: 50px ;
+    margin-left: -100px;
 
 }
 .atas{
@@ -183,10 +184,14 @@ background-color: black;
     justify-content: space-between;
     gap: 20px;
 }
+.cari{
+    margin-right: -150px;
+}
 .search-form {
     margin: 10px, 30px, 30px, 100000px ; 
     max-width: 400px;
     text-align: center;
+    margin-right: -30px;
 
 }
     
@@ -252,7 +257,7 @@ background-color: black;
     border-radius: 3px;
 }
 .cv{
-    height: 80;
+    height: 90vh;
     width: 49%;
     margin-left: 25.5%;
     box-shadow: 0 0 1px 3px orange ;
@@ -262,11 +267,16 @@ background-color: black;
 /* section4*/ 
 .khsj{
     background-color: #09f1fd;
-    width: 62.5%;
-    margin-left: 17%;
+    width: 125%;
+    height: 5%;
+    margin-top: 2%;
+    margin-left: -150px;
 }
 .khs{
-    margin-left: 17%;
+    margin-left: -150px;
+    height: 90vh;
+    width: 50%;
+    
 }
 
 /* section5*/
