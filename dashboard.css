@@ -235,25 +235,19 @@ background-color: black;
 
 
 
-/*section 3*/
+/*BIODATA*/
+#section1, #section2, #section3, #section4, #section5 {
+    height: 100vh;
+}
 #section3{
-    background-color: aqua;
-    height: 100vh;
-}
+    background-color: hotpink;
 
-/*section 4*/
+
+}
 #section4{
-    background-color: rgb(13, 250, 100);
-    height: 100vh;
+background-color: khaki;
 }
-
-/*section 5*/
 #section5{
-    background-color: rgb(180, 14, 53);
-    height: 100vh;
+    background-color: aqua;
+
 }
-
-
-
-
-
