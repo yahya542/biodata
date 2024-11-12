@@ -137,7 +137,7 @@ background-color: black;
     margin-top: -50px;
     border-radius: 50px;
     box-shadow: 0 0 1px 3px #09f1fd ;
-    animation: animasiGambar 7s infinite alternate;
+    animation: animasiGambar 4s infinite alternate;
 }
 @keyframes animasiGambar{
     0% {
@@ -247,6 +247,7 @@ background-color: black;
     color: whitesmoke;
     width: 50%;
     margin-left: 25%;
+    padding-left: 25%;
 }
 .cv{
     height: 80;
@@ -256,12 +257,14 @@ background-color: black;
 
 
 
-
-
-#section4{
-background-color: khaki;
+/* section*/ 
+.khsj{
+    background-color: #09f1fd;
+    width: 62.5%;
+    margin-left: 17%;
 }
-#section5{
-    background-color: aqua;
-
+.khs{
+    margin-left: 17%;
 }
+
+
