@@ -235,15 +235,29 @@ background-color: black;
 
 
 
-/*BIODATA*/
+
 #section1, #section2, #section3, #section4, #section5 {
     height: 100vh;
 }
-#section3{
-    background-color: hotpink;
 
+/*section3*/
 
+.judulCv{
+    background-color: orange;
+    color: whitesmoke;
+    width: 50%;
+    margin-left: 25%;
 }
+.cv{
+    height: 80;
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+
+
+
 #section4{
 background-color: khaki;
 }
