@@ -53,6 +53,7 @@ margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 2rem 0;
+    margin-left: -50px;
 }
 
 .navigasi ul {
@@ -79,7 +80,7 @@ margin: 0 auto;
     margin-right:30px ;
 }
 .navigasi ul li a { 
-    color:#fbfada
+    color:#fbfada;
 }
 .navigasi ul li a:hover { 
     color:#09f1fd;
@@ -120,7 +121,7 @@ background-color: black;
     margin:0.5rem 0 1rem ;
 }
 .isi-kiri{
-    margin-left: 90px;
+    margin-left: 50px;
     width: 600px;
 }
 .isi-kanan{
@@ -132,11 +133,11 @@ background-color: black;
 }
 
 #g {
-    height: 320px;
-    width: 50%;
+    height: 375px;
+    width: 75%;
     margin-top: -50px;
     border-radius: 50px;
-    box-shadow: 0 0 1px 3px #09f1fd ;
+    filter: drop-shadow(10px 10px 15px #09f1fd);
     animation: animasiGambar 4s infinite alternate;
 }
 @keyframes animasiGambar{
@@ -247,17 +248,18 @@ background-color: black;
     color: whitesmoke;
     width: 50%;
     margin-left: 25%;
-    padding-left: 25%;
+    padding-left: 175px;
+    border-radius: 3px;
 }
 .cv{
     height: 80;
-    width: 50%;
-    margin-left: 25%;
+    width: 49%;
+    margin-left: 25.5%;
+    box-shadow: 0 0 1px 3px orange ;
+    border-radius: 3px;
 }
 
-
-
-/* section*/ 
+/* section4*/ 
 .khsj{
     background-color: #09f1fd;
     width: 62.5%;
@@ -267,4 +269,16 @@ background-color: black;
     margin-left: 17%;
 }
 
+/* section5*/
+#b1{
+    background-color: chocolate;
+    color: aliceblue;
+    margin-left: -150px;
+    width: 50%;
+}
+.hsami{
+    width: 20%;
+    margin-left: -150px;
 
+
+}
