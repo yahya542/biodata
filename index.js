@@ -24,3 +24,6 @@ document.getElementById("logout").addEventListener("click", function(event) {
     window.location.href="index.php";
 
 });
+
+const themeToggleButton = document.getElementById('theme-toggle');
+const body = document.body;
