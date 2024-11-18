@@ -261,6 +261,9 @@ background-color: black;
 }
 
 /* section4*/ 
+.s4{
+    height: 100vh;
+}
 .khsj{
     background-color: #09f1fd;
     width: 125%;
@@ -271,9 +274,10 @@ background-color: black;
 .khs{
     margin-left: -150px;
     height: 90vh;
-    width: 50%;
+    width: 500px;
     
 }
+
 
 /* section5*/
 #b1{
