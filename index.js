@@ -27,3 +27,23 @@ document.getElementById("logout").addEventListener("click", function(event) {
 
 const themeToggleButton = document.getElementById('theme-toggle');
 const body = document.body;
+
+if (localStorage.getItem('theme') === 'light') {
+    body.classList.add('light-theme');
+    themeToggleButton.textContent = '🌞'; // Ubah ikon tombol untuk mode terang
+} else {
+    body.classList.remove('light-theme');
+    themeToggleButton.textContent = '🌙'; // Default ke mode gelap
+}
+
+// Mengganti antara mode terang dan gelap
+themeToggleButton.addEventListener('click', () => {
+    body.classList.toggle('light-theme');
+    if (body.classList.contains('light-theme')) {
+        localStorage.setItem('theme', 'light');
+        themeToggleButton.textContent = '🌞'; // Ubah ikon tombol untuk mode terang
+    } else {
+        localStorage.removeItem('theme');
+        themeToggleButton.textContent = '🌙'; // Ubah ikon tombol untuk mode gelap
+    }
+});

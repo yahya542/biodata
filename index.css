@@ -91,3 +91,109 @@ button:hover {
         padding: 20px;
     }
 }
+
+/* Gaya untuk Mode Terang */
+body.light-theme {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.85), rgba(240, 240, 240, 0.8)), url('img/bglogin.avif') center/cover no-repeat;
+    color: black;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 15px 5px #09f1fd;
+    transition: all 0.3s ease;
+}
+
+body.light-theme .container {
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 15px 5px #2575fc;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+body.light-theme h2 {
+    color: black;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+body.light-theme .form-group label {
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #444;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+body.light-theme .form-group input {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6a11cb;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+body.light-theme button {
+    background-color: #2575fc;
+}
+
+button:hover {
+    background-color: #09f1fd;
+}
+
+/* Responsif */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+.theme-toggle {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+body.light-theme .theme-toggle {
+    color: black;
+}
